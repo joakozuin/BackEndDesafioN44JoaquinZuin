@@ -1,0 +1,30 @@
+{
+  "name": "BackEndDesafioN44JoaquinZuin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidorgraphql.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/servidorgraphql.js",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.4",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
